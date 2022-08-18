@@ -1,4 +1,4 @@
-package com.ejercicio1.openshift.aplicacion;
+package com.ejercicio2.openshift.aplicacion;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -25,7 +25,7 @@ public class Aplicacion extends HttpServlet {
 	@Override
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
         System.out.println("Salida GET");
-        response.getWriter().println("Salida GET version desarrollo");  
+        response.getWriter().println("Salida GET WeebHook");  
         response.getWriter().flush();
     }
 
